@@ -1,0 +1,51 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white,
+}
+table {
+    height: 500%;
+    width: 100%;
+}
+.main_container{
+    height: 300%;
+    width: 20%;
+    border: 2px solid black;
+}
+.create_table{
+    margin-top: 200%;
+    background-color: orange;
+    padding: 6px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+.create_table_container {
+    border: 2px solid black;
+    width: 30%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+.add_another_field {
+    background-color: rgb(119, 119, 237);
+    border: 0px;
+    padding: 5px;
+    margin-left: 2px;
+    border-radius: 5px;
+}
+.add_table {
+    background-color: rgb(240, 166, 27);
+    border: 0px;
+    padding: 5px;
+    margin-left: 2px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/table.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <div class="main_container">
+                    <div class="table_name_container">
+                        
+                    </div>
+                    <div class="button-container">
+                        <button type="submit" class="create_table"><a href="creating_table.html"
+                                style="text-decoration:none; color:White">+createTable</a></button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="create_table_container">
+                    <form id="create_table_form" name="create_table">
+                        <div class="create_table_ui">
+                            <h2>Create table</h2>
+                        </div>
+                        <div class="table_name">
+                            <label>Table Name<br>
+                            <input type="name" placeholder="Table name" maxlength="30" id="name" name="table_create" autocomplete="username">
+                            </label><br><br>
+                        </div>
+                        <div class="field_name">
+                            <label>Field Names<br>
+                            <input type="name" placeholder="field names" id="field_name" name="field_create">
+                            </label><br><br>
+                        </div>
+                        <div class="field_data_type">
+                            <label>Type<br>
+                            <select id="type" name="field_data_type">
+                                <option value="string">STRING</option>
+                                <option value="boolean">BOOLEAN</option>
+                                <option value="int">INTEGER</option>
+                                <option value="json">JSON</option>
+                                <option value="double">DOUBLE</option>
+                            </select>
+                            </label><br><br>
+                        </div>
+                        <button class="add_another_field">Add another field</button>
+                        <button class="add_table">Create table</button>
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script src="../public/js/main.js"></script>
+    <script src="../public/js/createtable.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "database-management-system",
+  "version": "1.0.0",
+  "description": "A database management web application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jatin dixit",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
