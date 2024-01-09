@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../public/css/table.css">
+    <title>Database management system</title>
+    <link rel="stylesheet" href="css/table.css">
 </head>
 
 <body>
@@ -17,14 +17,13 @@
                         
                     </div>
                     <div class="button-container">
-                        <button type="submit" class="create_table"><a href="creating_table.html"
-                                style="text-decoration:none; color:White">+createTable</a></button>
+                        <button type="submit" class="create_table">+createTable</button>
                     </div>
                 </div>
             </td>
             <td>
                 <div class="create_table_container">
-                    <form id="create_table_form" name="create_table">
+                    <form id="create_table_form" name="create_table" method="POST" action="/create_table">
                         <div class="create_table_ui">
                             <h2>Create table</h2>
                         </div>
@@ -56,8 +55,8 @@
             </td>
         </tr>
     </table>
-    <script src="../public/js/main.js"></script>
-    <script src="../public/js/createtable.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/createtable.js"></script>
 </body>
 
 </html>

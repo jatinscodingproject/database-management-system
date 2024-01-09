@@ -11,12 +11,12 @@ table {
     width: 100%;
 }
 .main_container{
-    height: 300%;
-    width: 20%;
+    height: 100%;
+    width: 30%;
     border: 2px solid black;
 }
 .create_table{
-    margin-top: 200%;
+    margin-top: 300%;
     background-color: orange;
     padding: 6px;
     border: 0px;

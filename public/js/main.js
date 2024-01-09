@@ -9,6 +9,16 @@ document.addEventListener('DOMContentLoaded', function () {
         add_another_field.addEventListener('click', function (e) {
             e.preventDefault();
 
+            const form = document.querySelector('#create_table_form');
+            const formData = new FormData(form);
+            const tableName = formData.get('table_create');
+            const fieldname = formData.get('field_create');
+            const field_data_type = formData.get('field_data_type');
+
+            // table_name = tableName
+            // new_field_name = fieldname
+            // new_field_data_type= field_data_type
+
             // adding another field name functionality to field name
             const new_input_tag = document.createElement('input');
             new_input_tag.type = 'text';
